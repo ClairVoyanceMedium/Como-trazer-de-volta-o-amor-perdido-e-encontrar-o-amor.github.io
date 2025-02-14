@@ -1,42 +1,76 @@
-# Indique aux robots que toutes les pages peuvent être explorées, sauf restrictions spécifiées
 User-agent: *
+Allow: /
 Disallow: /admin/
+Disallow: /scripts/
+Disallow: /css/
+Disallow: /js/
+Disallow: /fonts/
 Disallow: /tmp/
 Disallow: /private/
 
-# Bloquer des URL avec paramètres inutiles pour l'indexation
-Disallow: /*?debug=true
-Disallow: /*?preview=true
-
-# Permettre les fichiers nécessaires au bon affichage et fonctionnement
-Allow: /css/
-Allow: /js/
-Allow: /images/
-
-# Référencement des ressources multimédias
-Allow: *.png
-Allow: *.jpg
-Allow: *.webp
-Allow: *.css
-Allow: *.js
-
-# Fournir le chemin du fichier sitemap pour une meilleure indexation
-Sitemap: https://www.clairvoyancemedium.com/sitemap.xml
-
-# Autorisation pour les robots Google et Bing pour maximiser les campagnes publicitaires
+# 📌 Indexation prioritaire pour l'IA, la recherche vocale et les moteurs
 User-agent: Googlebot
-Allow: /
-User-agent: AdsBot-Google
-Allow: /
+User-agent: Googlebot-Image
+User-agent: Googlebot-Video
 User-agent: Bingbot
+User-agent: DuckDuckGo
+User-agent: Applebot
+User-agent: Yandex
+User-agent: Sogou
+User-agent: Baiduspider
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: SearchGPT
+User-agent: Alexa
+User-agent: Siri
+User-agent: PerplexityBot
 Allow: /
 
-# Bloquer les robots nuisibles ou non désirés
-User-agent: BadBot
-Disallow: /
-User-agent: EvilScraper
+# 🔥 Augmenter la fréquence de crawling sur les pages stratégiques
+Crawl-delay: 1
+Request-rate: 1/1s
+
+# 📌 Autoriser l'indexation de l'intelligence artificielle (IA) et des assistants vocaux
+User-agent: AI
+User-agent: ChatGPT
+User-agent: Bard
+User-agent: Gemini
+User-agent: Copilot
+User-agent: Perplexity
+Allow: /
+
+# 🚀 Indexation prioritaire des pages clés
+Sitemap: https://clairvoyancemedium.github.io/sitemap.xml
+
+# 📌 Priorité aux featured snippets et recherche vocale
+Allow: /Como-trazer-de-volta-o-amor-perdido-e-encontrar-o-amor.github.io/
+Allow: /videncia-email/
+Allow: /rituais-de-amor/
+Allow: /consulta-clairvoyance/
+Allow: /compatibilidade-amorosa/
+Allow: /magia-branca/
+Allow: /magia-vermelha/
+Allow: /retorno-afetivo/
+
+# 🔒 Bloquer les bots indésirables & crawlers nuisibles
+User-agent: MJ12bot
+User-agent: AhrefsBot
+User-agent: SemrushBot
+User-agent: MegaIndex
+User-agent: DataForSeoBot
+User-agent: DotBot
+User-agent: SeznamBot
+User-agent: BLEXBot
+User-agent: WebDataStats
 Disallow: /
 
-# Empêcher l'exploration des fichiers sensibles
-Disallow: /config/
-Disallow: /backup/
+# ✅ AI & Voice Search Optimization
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: Bard
+User-agent: ClaudeBot
+Allow: /
+
+# 📌 Préférences de recherche
+X-Robots-Tag: all, follow, index, max-snippet:-1, max-image-preview:large, max-video-preview:-1
