@@ -1,21 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Voyancepartelephonepaschere.github.io/</loc>
-        <lastmod>2024-12-09</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Voyancepartelephonepaschere.github.io/tarifs</loc>
-        <lastmod>2024-12-09</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://clairvoyancemedium.github.io/Voyancepartelephonepaschere.github.io/contact</loc>
-        <lastmod>2024-12-09</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:speakable="https://schema.org/speakable">
+
+  <!-- 🌍 Page principale -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- 📌 Pages stratégiques -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/Como-trazer-de-volta-o-amor-perdido-e-encontrar-o-amor.github.io/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <speakable:SpeakableSpecification>
+      <speakable:cssSelector>h1, h2, p</speakable:cssSelector>
+    </speakable:SpeakableSpecification>
+  </url>
+
+  <url>
+    <loc>https://clairvoyancemedium.github.io/videncia-email/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://clairvoyancemedium.github.io/rituais-de-amor/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://clairvoyancemedium.github.io/consulta-clairvoyance/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clairvoyancemedium.github.io/compatibilidade-amorosa/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clairvoyancemedium.github.io/magia-branca/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://clairvoyancemedium.github.io/magia-vermelha/</loc>
+    <lastmod>2025-02-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 🎥 Indexation des vidéos -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/videos/ritual-amor.mp4</loc>
+    <video:video>
+      <video:thumbnail_loc>https://clairvoyancemedium.github.io/images/video-thumbnail.jpg</video:thumbnail_loc>
+      <video:title>Ritual de Amor para Recuperar seu Ex</video:title>
+      <video:description>Descubra o poder da magia para reconquistar o amor da sua vida.</video:description>
+      <video:content_loc>https://clairvoyancemedium.github.io/videos/ritual-amor.mp4</video:content_loc>
+      <video:publication_date>2025-02-15</video:publication_date>
+    </video:video>
+  </url>
+
+  <!-- 🖼 Indexation des images -->
+  <url>
+    <loc>https://clairvoyancemedium.github.io/</loc>
+    <image:image>
+      <image:loc>https://clairvoyancemedium.github.io/images/logo.png</image:loc>
+      <image:title>Clairvoyance Medium Logo</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://clairvoyancemedium.github.io/Como-trazer-de-volta-o-amor-perdido-e-encontrar-o-amor.github.io/</loc>
+    <image:image>
+      <image:loc>https://clairvoyancemedium.github.io/images/ritual-magie-amour.jpg</image:loc>
+      <image:title>Ritual de Magia para Recuperar o Amor</image:title>
+    </image:image>
+  </url>
+
 </urlset>
